@@ -5,24 +5,34 @@
 
 ## 1. Project Description
 
-This project uses HTML and CSS Flexbox to move six colorful boxes through nine positions on the screen. The boxes move repeatedly using CSS animation without JavaScript.
+This project demonstrates how CSS Flexbox can position six colorful boxes in nine different positions on the screen. The boxes move repeatedly using CSS animations without JavaScript.
 
-## 2. Flexbox Properties
+The website displays only the numbered boxes against a light-gray background.
 
-- `display: flex` — creates a flex container.
-- `justify-content` — aligns boxes horizontally.
-- `align-items` — aligns boxes vertically.
-- `align-content` — aligns multiple rows of boxes.
-- `flex-direction` — sets the direction of the boxes.
-- `flex-wrap` — allows boxes to wrap onto new lines.
+## 2. Technologies Used
+
+- HTML5 — creates the structure of the webpage.
+- CSS3 — styles the boxes and controls their positions.
+- Flexbox — aligns the boxes horizontally and vertically.
+- CSS animations — moves the boxes through nine screen positions.
+- Git and GitHub — track changes and store the project online.
+
+## 3. Flexbox Properties Used
+
+- `display: flex` — creates a Flexbox container.
+- `justify-content` — positions boxes horizontally.
+- `align-items` — aligns items vertically within their flex lines.
+- `align-content` — positions multiple flex lines within the container.
+- `flex-direction: row` — arranges boxes in a row.
+- `flex-wrap: wrap` — allows boxes to wrap onto additional lines.
 - `gap` — adds space between boxes.
-- `height: 100vh` — makes the container fill the screen height.
-- `@keyframes` — defines the animation stages.
-- `animation-iteration-count: infinite` — repeats the animation continuously.
+- `height: 100vh` — makes the container fill the viewport height.
 
-## 3. The Nine Positions
+## 4. The Nine Screen Positions
 
-| Position | `justify-content` | `align-items` |
+The CSS animation moves the boxes through these nine positions:
+
+| Position | Horizontal Alignment | Vertical Alignment |
 |---|---|---|
 | Top Left | `flex-start` | `flex-start` |
 | Top Center | `center` | `flex-start` |
@@ -34,28 +44,33 @@ This project uses HTML and CSS Flexbox to move six colorful boxes through nine p
 | Bottom Center | `center` | `flex-end` |
 | Bottom Right | `flex-end` | `flex-end` |
 
-## 4. Extra Layout
+## 5. CSS Animation
 
-The project also uses `flex-direction: column` to arrange three boxes vertically.
+The `@keyframes moveBoxes` rule defines the nine stages of the animation.
 
-## 5. Screenshots
+The animation uses:
 
-Add screenshots of three positions:
+- `animation: moveBoxes 27s steps(1, end) infinite;`
+- `27s` — sets the duration of one animation cycle.
+- `steps(1, end)` — changes the layout in discrete stages.
+- `infinite` — repeats the animation continuously.
 
-- Top Left
-- Center
-- Bottom Right
+## 6. Screenshots
 
-## 6. Video Demonstration
+The `screenshots` folder contains images demonstrating the boxes at different screen positions.
+
+- [Top Left](screenshots/Top-left.png)
+- [Middle](screenshots/Middle.png)
+- [Bottom Right](screenshots/Buttom-right.png)
+
+## 7. Video Demonstration
 
 **Video Link:** Add your YouTube Unlisted or Google Drive video link here.
 
-The video explains the nine positions and the Flexbox properties used.
-
-## 7. Technologies
-
-HTML5, CSS3, Git, and GitHub.
+The video will demonstrate the running animation and explain the Flexbox properties used in the project.
 
 ## 8. Conclusion
 
-This project demonstrates how Flexbox properties and CSS animations can position and move elements around the screen without JavaScript.
+This project demonstrates how HTML, CSS Flexbox, and CSS animations can position six colorful boxes in nine screen positions without using JavaScript.
+
+The exercise helped me practice flex alignment, wrapping, spacing, responsive styling, and animation.
