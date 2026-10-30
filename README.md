@@ -65,9 +65,8 @@ The `screenshots` folder contains images demonstrating the boxes at different sc
 
 ## 7. Video Demonstration
 
-**Video Link:** Add your YouTube Unlisted or Google Drive video link here.
+https://drive.google.com/file/d/1BMq9SF1AlqPUKvailj6q8letZKg76tFp/view?usp=drive_link
 
-The video will demonstrate the running animation and explain the Flexbox properties used in the project.
 
 ## 8. Conclusion
 
